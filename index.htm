@@ -4,14 +4,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Waris Amir — Backend Engineer</title>
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <title>Waris Amir — Backend Engineer | Java Spring Boot Docker Kubernetes</title>
   <meta name="description"
-    content="Waris Amir — Backend Engineer building scalable systems with Java, Spring Boot, Docker & Kubernetes. Built for software delivery." />
+    content="Waris Amir — Backend Engineer building scalable systems with Java, Spring Boot, Docker & Kubernetes. Featured projects in distributed systems, REST APIs, and cloud infrastructure." />
+  <meta name="keywords" content="backend engineer, Java, Spring Boot, Docker, Kubernetes, CI/CD, REST API, distributed systems, cloud, software delivery" />
+  <meta name="author" content="Waris Amir" />
+  <meta name="application-name" content="Waris Amir Portfolio" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/warisamir" />
+  <meta property="og:title" content="Waris Amir — Backend Engineer | Java Spring Boot Docker Kubernetes" />
+  <meta property="og:description" content="Waris Amir — Backend Engineer building scalable systems with Java, Spring Boot, Docker & Kubernetes. Specialized in distributed systems and software delivery." />
+  <meta property="og:site_name" content="Waris Amir Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Waris Amir — Backend Engineer | Java Spring Boot Docker Kubernetes" />
+  <meta name="twitter:description" content="Waris Amir — Backend Engineer building scalable systems with Java, Spring Boot, Docker & Kubernetes." />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://github.com/warisamir" />
+
+  <!-- Preconnect for Performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+
+  <!-- Fonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
     rel="stylesheet" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Waris Amir",
+    "url": "https://github.com/warisamir",
+    "jobTitle": "Backend Engineer",
+    "email": "warisamir1918@gmail.com",
+    "sameAs": [
+      "https://github.com/warisamir",
+      "https://www.linkedin.com/in/waris-amir-0387461b3/",
+      "https://leetcode.com/warisamir19/",
+      "https://www.hackerrank.com/warisamir1918"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelance / Open to Opportunities"
+    },
+    "knowsAbout": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "REST APIs",
+      "Distributed Systems",
+      "Cloud Computing",
+      "MySQL",
+      "MongoDB",
+      "AWS",
+      "GCP"
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD for Portfolio Projects -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Waris Amir Backend Projects",
+    "description": "Featured backend engineering projects showcasing Java, Spring Boot, and cloud infrastructure expertise",
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "AI Website Generator — Backend",
+        "description": "Enterprise-grade Spring Boot backend with RBAC, PostgreSQL, object storage and observability integrations",
+        "url": "https://github.com/warisamir/AI-website-generator-backend",
+        "keywords": "Java, Spring Boot, PostgreSQL, REST API"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Latency Budget Tracker",
+        "description": "Production-ready latency observability platform built with Spring Boot and React for tracking SLOs and service latency budgets",
+        "url": "https://github.com/warisamir/latency-budget-tracker",
+        "keywords": "Java, Spring Boot, React, Observability"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Fitness API",
+        "description": "Spring Boot REST API with authentication, CRUD operations and MySQL integration using clean layered architecture",
+        "url": "https://github.com/warisamir/FitnessApiViaSpringboot",
+        "keywords": "Java, Spring Boot, MySQL, REST API"
+      },
+      {
+        "@type": "WebPage",
+        "name": "NearPharma",
+        "description": "Spring Boot backend for discovering nearby pharmacies using REST APIs and scalable backend design",
+        "url": "https://github.com/warisamir/NearPharmaViaSpringboot",
+        "keywords": "Java, Spring Boot, Docker, Geolocation"
+      }
+    ]
+  }
+  </script>
+
   <style>
     :root {
       --bg: #0a0e1c;
@@ -921,100 +1023,100 @@
 <body>
   <div class="grid-bg"></div>
 
-  <header class="nav">
+  <header class="nav" role="banner">
     <div class="nav-inner">
       <div class="brand"><span class="cyan">waris</span>@<b>delivery</b>:~$</div>
-      <nav class="nav-links">
+      <nav class="nav-links" aria-label="Main navigation">
         <a href="#fit">fit</a><a href="#stack">stack</a><a href="#deployments">deployments</a><a
           href="#signals">signals</a>
         <a href="#resume">resume</a><a href="#contact">contact</a>
       </nav>
-      <span class="status-chip"><span class="dot"></span>open to backend roles</span>
+      <span class="status-chip" aria-label="Open to backend roles"><span class="dot" aria-hidden="true"></span>open to backend roles</span>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main role="main">
+    <section class="hero" itemscope itemtype="https://schema.org/Person">
       <div class="wrap hero-grid">
         <div class="hero-copy">
           <span class="eyebrow">Backend Engineer · Java · Distributed Systems</span>
-          <h1>Waris Amir<br /><span class="accent">ships software</span><br />that scales.</h1>
-          <div class="role">Java<span class="sep">/</span>Spring Boot<span class="sep">/</span>Docker<span
+          <h1 itemprop="name">Waris Amir<br /><span class="accent">ships software</span><br />that scales.</h1>
+          <div class="role" itemprop="jobTitle">Java<span class="sep">/</span>Spring Boot<span class="sep">/</span>Docker<span
               class="sep">/</span>Kubernetes<span class="sep">/</span>CI/CD</div>
           <p class="lede">I build scalable backend systems, clean REST APIs, and the delivery plumbing around them — the
             same problems software delivery platforms are built to solve.</p>
           <div class="hero-cta">
             <a class="btn btn-primary" href="#deployments">View deployments →</a>
-            <a class="btn btn-ghost" href="https://github.com/warisamir" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn btn-ghost" href="https://drive.google.com/file/d/1QHUsyAObkpGDqaLeomDw647ZHp4gwNA_/view?usp=sharing" target="_blank">
+            <a class="btn btn-ghost" href="https://github.com/warisamir" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub profile">GitHub</a>
+            <a class="btn btn-ghost" href="https://drive.google.com/file/d/1QHUsyAObkpGDqaLeomDw647ZHp4gwNA_/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="View resume">
               Resume ↗
             </a>
           </div>
         </div>
 
-        <div class="three-viewport" id="viewport">
+        <div class="three-viewport" id="viewport" role="img" aria-label="3D interactive deploybot character animation">
           <div class="vp-head">
-            <span class="tl r"></span><span class="tl y"></span><span class="tl g"></span>
+            <span class="tl r" aria-hidden="true"></span><span class="tl y" aria-hidden="true"></span><span class="tl g" aria-hidden="true"></span>
             <span class="vp-title">scene · deploybot.gl</span>
             <span class="vp-badge" id="vpBadge">● live</span>
           </div>
-          <canvas id="gl"></canvas>
-          <div class="bubble" id="bubble"><span class="who">deploybot:</span> <span id="bubbleText">booting…</span>
+          <canvas id="gl" aria-hidden="true"></canvas>
+          <div class="bubble" id="bubble" aria-live="polite" aria-atomic="true"><span class="who">deploybot:</span> <span id="bubbleText">booting…</span>
           </div>
           <div class="vp-foot">
             <span class="lib">three.js + fabric.js</span>
             <span id="vpFps">render: 3D</span>
           </div>
           <div class="vp-fallback" id="vpFallback" hidden>
-            <canvas id="botFallback" width="480" height="480"></canvas>
+            <canvas id="botFallback" width="480" height="480" aria-hidden="true"></canvas>
             <p>3D unavailable — character rendered with fabric.js</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="block" id="fit">
+    <section class="block" id="fit" aria-labelledby="fit-heading">
       <div class="wrap">
         <div class="sec-head reveal">
           <span class="sec-num">01</span>
           <div><span class="eyebrow">Why this maps</span>
-            <h2>Built for software delivery</h2>
+            <h2 id="fit-heading">Built for software delivery</h2>
             <p class="sec-desc">A platform that automates build, test, deploy and security across the SDLC needs
               engineers who think in pipelines, APIs, and distributed systems. That is the work I gravitate toward.</p>
           </div>
         </div>
         <div class="fit-grid">
-          <div class="fit reveal">
+          <article class="fit reveal">
             <div class="k">backend.core</div>
             <h3>Scalable services &amp; APIs</h3>
             <p>Java and Spring Boot backends with clean REST contracts, built for throughput and maintainability over
               clever shortcuts.</p>
-          </div>
-          <div class="fit reveal">
+          </article>
+          <article class="fit reveal">
             <div class="k">delivery.ops</div>
             <h3>Ship &amp; operate</h3>
             <p>Docker, Kubernetes and CI/CD to package and roll out services — plus Grafana and Kibana to watch what
               happens after deploy.</p>
-          </div>
-          <div class="fit reveal">
+          </article>
+          <article class="fit reveal">
             <div class="k">systems.depth</div>
             <h3>Distributed thinking</h3>
             <p>Actively learning system design and distributed systems — the reliability, consistency and scale problems
               behind every delivery platform.</p>
-          </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="block" id="stack">
+    <section class="block" id="stack" aria-labelledby="stack-heading">
       <div class="wrap">
         <div class="sec-head reveal"><span class="sec-num">02</span>
           <div><span class="eyebrow">Stack manifest</span>
-            <h2>What I build with</h2>
+            <h2 id="stack-heading">What I build with</h2>
           </div>
         </div>
         <div class="manifest reveal">
-          <div class="pipe-head"><span class="tl r"></span><span class="tl y"></span><span class="tl g"></span><span
+          <div class="pipe-head"><span class="tl r" aria-hidden="true"></span><span class="tl y" aria-hidden="true"></span><span class="tl g" aria-hidden="true"></span><span
               class="pipe-title">stack.yaml</span></div>
           <div class="manifest-body">
             <div class="mrow">
@@ -1050,72 +1152,72 @@
       </div>
     </section>
 
-    <section class="block" id="deployments">
+    <section class="block" id="deployments" aria-labelledby="deployments-heading">
       <div class="wrap">
         <div class="sec-head reveal"><span class="sec-num">03</span>
           <div><span class="eyebrow">Deployments</span>
-            <h2>Featured Backend Projects</h2>
+            <h2 id="deployments-heading">Featured Backend Projects</h2>
             <p class="sec-desc">Selected projects from 120+ repositories. Each one is a service I designed, built and
               pushed end to end.</p>
           </div>
         </div>
         <div class="deploys">
-          <div class="deploy reveal">
-            <div class="deploy-top"><span class="badge pass"><span class="d"></span>passing</span><span class="env">env
+          <article class="deploy reveal">
+            <div class="deploy-top"><span class="badge pass" aria-label="Status: passing"><span class="d" aria-hidden="true"></span>passing</span><span class="env">env
                 · backend</span></div>
             <h3>AI Website Generator — Backend</h3>
             <p>Enterprise-grade Spring Boot backend with RBAC, PostgreSQL, object storage and observability integrations
               for AI-powered website generation.</p>
             <div class="stk"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span></div>
-            <div class="links"><a href="https://github.com/warisamir/AI-website-generator-backend">↗ repo</a></div>
-          </div>
-          <div class="deploy reveal">
-            <div class="deploy-top"><span class="badge live"><span class="d"></span>live</span><span class="env">env ·
+            <div class="links"><a href="https://github.com/warisamir/AI-website-generator-backend" target="_blank" rel="noopener noreferrer">↗ repo</a></div>
+          </article>
+          <article class="deploy reveal">
+            <div class="deploy-top"><span class="badge live" aria-label="Status: live"><span class="d" aria-hidden="true"></span>live</span><span class="env">env ·
                 observability</span></div>
             <h3>Latency Budget Tracker</h3>
             <p>Production-ready latency observability platform built with Spring Boot and React for tracking SLOs and
               service latency budgets.</p>
             <div class="stk"><span>Java</span><span>Spring Boot</span><span>React</span></div>
-            <div class="links"><a href="https://github.com/warisamir/latency-budget-tracker">↗ repo</a></div>
-          </div>
-          <div class="deploy reveal">
-            <div class="deploy-top"><span class="badge live"><span class="d"></span>live</span><span class="env">env ·
+            <div class="links"><a href="https://github.com/warisamir/latency-budget-tracker" target="_blank" rel="noopener noreferrer">↗ repo</a></div>
+          </article>
+          <article class="deploy reveal">
+            <div class="deploy-top"><span class="badge live" aria-label="Status: live"><span class="d" aria-hidden="true"></span>live</span><span class="env">env ·
                 backend</span></div>
             <h3>Fitness API</h3>
             <p>Spring Boot REST API with authentication, CRUD operations and MySQL integration using a clean layered
               architecture.</p>
             <div class="stk"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
-            <div class="links"><a href="https://github.com/warisamir/FitnessApiViaSpringboot">↗ repo</a></div>
-          </div>
-          <div class="deploy reveal">
-            <div class="deploy-top"><span class="badge live"><span class="d"></span>live</span><span class="env">env ·
+            <div class="links"><a href="https://github.com/warisamir/FitnessApiViaSpringboot" target="_blank" rel="noopener noreferrer">↗ repo</a></div>
+          </article>
+          <article class="deploy reveal">
+            <div class="deploy-top"><span class="badge live" aria-label="Status: live"><span class="d" aria-hidden="true"></span>live</span><span class="env">env ·
                 geolocation</span></div>
             <h3>NearPharma</h3>
             <p>Spring Boot backend for discovering nearby pharmacies using REST APIs and scalable backend design.</p>
             <div class="stk"><span>Java</span><span>Spring Boot</span><span>Docker</span></div>
-            <div class="links"><a href="https://github.com/warisamir/NearPharmaViaSpringboot">↗ repo</a></div>
-          </div>
+            <div class="links"><a href="https://github.com/warisamir/NearPharmaViaSpringboot" target="_blank" rel="noopener noreferrer">↗ repo</a></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="block" id="signals">
+    <section class="block" id="signals" aria-labelledby="signals-heading">
       <div class="wrap">
         <div class="sec-head reveal"><span class="sec-num">04</span>
           <div><span class="eyebrow">Signals</span>
-            <h2>The track record</h2>
+            <h2 id="signals-heading">The track record</h2>
           </div>
         </div>
         <div class="metrics">
-          <a class="metric reveal" href="https://github.com/warisamir?tab=repositories" target="_blank" rel="noopener">
+          <a class="metric reveal" href="https://github.com/warisamir?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="View 120+ public repositories on GitHub">
             <div class="n">120<span class="u">+</span></div>
             <div class="l">public repositories</div>
           </a>
-          <a class="metric reveal" href="https://leetcode.com/warisamir19/" target="_blank" rel="noopener">
+          <a class="metric reveal" href="https://leetcode.com/warisamir19/" target="_blank" rel="noopener noreferrer" aria-label="View DSA problem solving on LeetCode">
             <div class="n">DSA<span class="u">↗</span></div>
             <div class="l">LeetCode · problem solving</div>
           </a>
-          <a class="metric reveal" href="https://www.hackerrank.com/warisamir1918" target="_blank" rel="noopener">
+          <a class="metric reveal" href="https://www.hackerrank.com/warisamir1918" target="_blank" rel="noopener noreferrer" aria-label="View HackerRank profile">
             <div class="n">HR<span class="u">↗</span></div>
             <div class="l">HackerRank profile</div>
           </a>
@@ -1127,14 +1229,14 @@
       </div>
     </section>
 
-    <section class="block" id="resume">
+    <section class="block" id="resume" aria-labelledby="resume-heading">
       <div class="wrap">
 
         <div class="sec-head reveal">
           <span class="sec-num">05</span>
           <div>
             <span class="eyebrow">Resume</span>
-            <h2>Professional Resume</h2>
+            <h2 id="resume-heading">Professional Resume</h2>
           </div>
         </div>
 
@@ -1148,11 +1250,11 @@
 
           <div class="contact-links">
 
-            <a class="btn btn-primary" href="https://drive.google.com/file/d/1QHUsyAObkpGDqaLeomDw647ZHp4gwNA_/view?usp=sharing" target="_blank">
+            <a class="btn btn-primary" href="https://drive.google.com/file/d/1QHUsyAObkpGDqaLeomDw647ZHp4gwNA_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               View Resume
             </a>
 
-            <a class="btn btn-ghost" href="https://drive.google.com/uc?export=download&id=1QHUsyAObkpGDqaLeomDw647ZHp4gwNA_" target="_blank">
+            <a class="btn btn-ghost" href="https://drive.google.com/uc?export=download&id=1QHUsyAObkpGDqaLeomDw647ZHp4gwNA_" target="_blank" rel="noopener noreferrer">
               Download Resume
             </a>
 
@@ -1162,35 +1264,35 @@
 
       </div>
     </section>
-    <section class="block" id="contact">
+    <section class="block" id="contact" aria-labelledby="contact-heading">
       <div class="wrap">
         <div class="contact-card reveal">
           <span class="eyebrow">trigger: deploy</span>
-          <h2>Let's ship something.</h2>
+          <h2 id="contact-heading">Let's ship something.</h2>
           <p>Open to backend and full-stack engineering roles, remote or in India. The fastest way to reach me is email
             — I reply quickly.</p>
           <div class="contact-links">
-            <a class="btn btn-primary" href="mailto:warisamir1918@gmail.com">warisamir1918@gmail.com</a>
+            <a class="btn btn-primary" href="mailto:warisamir1918@gmail.com" aria-label="Send email to Waris Amir">warisamir1918@gmail.com</a>
             <a class="btn btn-ghost" href="https://www.linkedin.com/in/waris-amir-0387461b3/" target="_blank"
-              rel="noopener">LinkedIn</a>
-            <a class="btn btn-ghost" href="https://github.com/warisamir" target="_blank" rel="noopener">GitHub</a>
+              rel="noopener noreferrer" aria-label="Visit LinkedIn profile">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/warisamir" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub profile">GitHub</a>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="wrap foot-inner">
       <span>© 2026 Waris Amir · built &amp; deployed by hand</span>
       <span class="mono">status: <span style="color:var(--cyan)">all systems operational</span></span>
     </div>
   </footer>
 
-  <canvas id="botCanvas" width="480" height="480" class="offscreen"></canvas>
+  <canvas id="botCanvas" width="480" height="480" class="offscreen" aria-hidden="true"></canvas>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js" defer></script>
   <script>
     (function () {
       "use strict";
