@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/google21ebb714c993aca9.html",
+      "dest": "/google21ebb714c993aca9.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "index.htm"
     }
