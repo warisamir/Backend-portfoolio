@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /index.htm
+
+Disallow: /.git/
+Disallow: /node_modules/
+
+Sitemap: https://github.com/warisamir/Backend-portfoolio/sitemap.xml
+
+# Google Search Console verification
+# Allow Google to crawl everything except git and node_modules
