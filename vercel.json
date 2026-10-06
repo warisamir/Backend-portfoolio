@@ -1,5 +1,32 @@
 {
   "version": 2,
-  "buildCommand": "mkdir -p public && cp index.htm robots.txt sitemap.xml google21ebb714c993aca9.html public/ 2>/dev/null || true",
-  "outputDirectory": "public"
+  "public": true,
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "functions": {
+    "index.htm": {
+      "includeFiles": "**"
+    }
+  },
+  "routes": [
+    {
+      "src": "/google21ebb714c993aca9\\.html",
+      "status": 200,
+      "continue": false
+    },
+    {
+      "src": "/robots\\.txt",
+      "status": 200,
+      "continue": false
+    },
+    {
+      "src": "/sitemap\\.xml",
+      "status": 200,
+      "continue": false
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.htm"
+    }
+  ]
 }
