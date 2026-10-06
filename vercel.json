@@ -1,32 +1,3 @@
 {
-  "version": 2,
-  "public": true,
-  "trailingSlash": false,
-  "cleanUrls": true,
-  "functions": {
-    "index.htm": {
-      "includeFiles": "**"
-    }
-  },
-  "routes": [
-    {
-      "src": "/google21ebb714c993aca9\\.html",
-      "status": 200,
-      "continue": false
-    },
-    {
-      "src": "/robots\\.txt",
-      "status": 200,
-      "continue": false
-    },
-    {
-      "src": "/sitemap\\.xml",
-      "status": 200,
-      "continue": false
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.htm"
-    }
-  ]
+  "version": 2
 }
