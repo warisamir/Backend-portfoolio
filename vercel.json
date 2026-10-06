@@ -1,3 +1,11 @@
 {
-  "version": 2
+  "version": 2,
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/:path((?!google.*\\.html$|sitemap\\.xml$|robots\\.txt$).*)",
+      "destination": "/index.htm"
+    }
+  ]
 }
