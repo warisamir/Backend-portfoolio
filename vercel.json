@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "cleanUrls": false,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/:path((?!google.*\\.html$|sitemap\\.xml$|robots\\.txt$).*)",
-      "destination": "/index.htm"
-    }
-  ]
+  "buildCommand": "mkdir -p public && cp index.htm robots.txt sitemap.xml google21ebb714c993aca9.html public/ 2>/dev/null || true",
+  "outputDirectory": "public"
 }
